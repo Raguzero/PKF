@@ -1,0 +1,6 @@
+
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at C:\Users\Fernando\Desktop\PokeFabrica PxP 1.0\bot.js:607:137
+    at fs.js:334:14
+    at FSReqWrap.oncomplete (fs.js:95:15)
