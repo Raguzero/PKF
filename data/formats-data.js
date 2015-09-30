@@ -5391,7 +5391,7 @@ tier: "PKF"
 		strancloud: {
 		  randomBattleMoves: ["hurricane","thunder","weatherball","recover","voltswitch"],
             isNonstandard: true,
-		eventPokemon: [{"generation":6,"level":1,"moves":["foulplay","sheercold","cottonguard","cottonspore"],"pokeball":"cherishball"}
+		eventPokemon: [{"generation":6,"level":1,"isHidden":false,"moves":["foulplay","sheercold","cottonguard","cottonspore"],"pokeball":"cherishball"}
 		],
           tier: "PKF"
             },
