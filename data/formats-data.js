@@ -5388,15 +5388,17 @@ tier: "PKF"
             isNonstandard: true,
           tier: "PKF"
             },
-					strancloud: {
+		strancloud: {
 		  randomBattleMoves: ["hurricane","thunder","weatherball","recover","voltswitch","hiddenpowerfire","foulplay"],
             isNonstandard: true,
+		eventPokemon: [{"generation":6,"level":1,"moves":["foulplay","sheercold","cottonguard","cottonspore"],"pokeball":"cherishball"}
+		],
           tier: "PKF"
             },
-				strancloudmega: {
+		strancloudmega: {
 		randomBattleMoves: ["recover","blizzard","hurricane","thunder","weatherball","voltswitch","hiddenpowerfire"],
 		requiredItem: "Strancloudite",
-		isNonstandard: true,
+		 isNonstandard: true,
 		  tier: "PKF"
 	},
 			// MODIFICADO PARA POKEFABRICA
