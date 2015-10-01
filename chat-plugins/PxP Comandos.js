@@ -152,10 +152,4 @@ slap: function (target, room, user) {
 	},
 	
 
-//	faqliga: function (target, room, user) {
-//		if (!this.canBroadcast()) return;
-//		this.sendReplyBox("Haz click <a href='http://pokemon-hispano.comxa.com/showthread.php?tid=250'>aqui</a> para ver como desafiar a la liga.");
-//	},
-
-
 	};
