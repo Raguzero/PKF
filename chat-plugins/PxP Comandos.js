@@ -32,7 +32,7 @@ slap: function (target, room, user) {
 	},
 	
 	salahelp: function (target, room, user) {
-		if (room.id === 'lobby' || room.battle) return this.sendReply("Este comando es demasiado caótico y lleno de teorias de XY para usarlo en lobby/battles.");
+		if (room.id === 'lobby' || room.battle) return this.sendReply("Este comando es demasiado caÃ³tico y lleno de teorias de XY para usarlo en lobby/battles.");
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
 			"Room drivers (%) pueden usar los siguiente comandos:<br />" +
@@ -42,8 +42,8 @@ slap: function (target, room, user) {
 			"- /hourmute o /hm <em>username</em>: Enmudece a un usuario por 60 minutos<br />" +
 			"- /unmute <em>username</em>: Quita el mute a un usuario<br />" +
 			"- /announce o /wall <em>message</em>: Permite hacer un Anuncio Oficial<br />" +
-			"- /modlog <em>username</em>: Busca el log de moderación de la sala<br />" +
-			"- /modnote <em>note</em>: Añade un nota de moderación que puede ser leida en el modlog<br />" +
+			"- /modlog <em>username</em>: Busca el log de moderaciÃ³n de la sala<br />" +
+			"- /modnote <em>note</em>: AÃ±ade un nota de moderaciÃ³n que puede ser leida en el modlog<br />" +
 			"<br />" +
 			"Room moderators (@) tambien pueden usar los siguientes comandos:<br />" +
 			"- /roomban OR /rb <em>username</em>: Banea a un usuario de la sala<br />" +
@@ -53,16 +53,16 @@ slap: function (target, room, user) {
 			"- /modchat <em>[off/autoconfirmed/+]</em>: Selecciona el nivel del modchat<br />" +
 			"<br />" +
 			"Room owners (#) tambien pueden usar los siguientes comandos:<br />" +
-			"- /roomintro <em>intro</em>: Selecciona la introdución de la sala para que todas las personas que se unan a dicha sala, puedan verla<br />" +
+			"- /roomintro <em>intro</em>: Selecciona la introduciÃ³n de la sala para que todas las personas que se unan a dicha sala, puedan verla<br />" +
 			"- /rules <em>rules link</em>: Selecciona las reglas de la sala cuando estas usando /rules<br />" +
 			"- /roommod, /roomdriver <em>username</em>: Lo convierte en un moderador de sala/driver<br />" +
 			"- /roomdemod, /roomdedriver <em>username</em>: Elimina un moderator de sala/driver<br />" +
 			"- /modchat <em>[%/@/#]</em>: Selecciona el nivel del modchat<br />" +
-			"- /declare <em>message</em>: Lanza una declaración grande y azul a la sala<br />" +
-			"- !htmlbox <em>HTML code</em>: Difunde una caja de código HTML a la sala<br />" +
+			"- /declare <em>message</em>: Lanza una declaraciÃ³n grande y azul a la sala<br />" +
+			"- !htmlbox <em>HTML code</em>: Difunde una caja de cÃ³digo HTML a la sala<br />" +
 			"- !showimage <em>[url], [width], [height]</em>: Muestra una imagen a la sala<br />" +
 			"<br />" +
-			"Más detalles de ayuda pueden ser encontrado en la <a href=\"https://www.smogon.com/sim/roomauth_guide\">guia roomauth </a><br />" +
+			"MÃ¡s detalles de ayuda pueden ser encontrado en la <a href=\"https://www.smogon.com/sim/roomauth_guide\">guia roomauth </a><br />" +
 			"</div>"
 		);
 	},
@@ -73,8 +73,8 @@ slap: function (target, room, user) {
 		this.sendReplyBox(
 			"El servidor se va a reiniciar. Cosas que debes saber:<br />" +
 			"- Esperaemos unos minutos antes de reiniciar para que las personas puedan terminar sus batallas<br />" +
-			"- El reinicio tomará alrededor de 0.6 segundos<br />" +
-			"- Tu ladder ranking y equipos no cambiarán<br />" +
+			"- El reinicio tomarÃ¡ alrededor de 0.6 segundos<br />" +
+			"- Tu ladder ranking y equipos no cambiarÃ¡n<br />" +
 			"- Vamos a reiniciar para actualizar Pok&eacute;mon Showdown a la nueva version"
 		);
 	},
@@ -87,36 +87,36 @@ slap: function (target, room, user) {
 		var matched = false;
 
 		if (target === 'all' && this.broadcasting) {
-			return this.sendReplyBox("Tranquilizate y tomate una taza de té, no puedes ver toda la información sobre PxP Metagames al mismo tiempo.");
+			return this.sendReplyBox("Tranquilizate y tomate una taza de tÃ©, no puedes ver toda la informaciÃ³n sobre PxP Metagames al mismo tiempo.");
 		}
 
 		if (!target || target === 'all') {
 			matched = true;
-		buffer += "- <a href=\"www.pokexperto.net\"> PxP Bot: Uy, si que aún no hay nada, perdón por las molestias</a><br />";
+		buffer += "- <a href=\"www.pokexperto.net\"> PxP Bot: Uy, si que aÃºn no hay nada, perdÃ³n por las molestias</a><br />";
 		//	buffer += "- <a href=\"https://www.smogon.com/tiers/om/\">PxP Metagames Hub</a><br />";
 		//	buffer += "- <a href=\"https://www.smogon.com/forums/threads/3505031/\">PxP Metagames Index</a><br />";
 		}
 		if (!matched) {
-			return this.sendReply("La entrada PxP Metagames de '" + target + "' no fué encontrada. Intenta escribir /pxpmetas o /pxpm para ayuda general.");
+			return this.sendReply("La entrada PxP Metagames de '" + target + "' no fuÃ© encontrada. Intenta escribir /pxpmetas o /pxpm para ayuda general.");
 		}
 		this.sendReplyBox(buffer);
 	},
-	pxpmetashelp: ["/pxpm - Muestra links sobre información de PxP Metagames.",
-		"!pxpm - Muestra a todos esta información. Requiere: + % @ # & ~"],
+	pxpmetashelp: ["/pxpm - Muestra links sobre informaciÃ³n de PxP Metagames.",
+		"!pxpm - Muestra a todos esta informaciÃ³n. Requiere: + % @ # & ~"],
 		
 		pkfintro: 'pkf',
 	pkf: function (target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
-			"Toda la información sobre el proyecto PokeFabrica (PKF) que se está realizando en Pokexperto:<br />" +
+			"Toda la informaciÃ³n sobre el proyecto PokeFabrica (PKF) que se estÃ¡ realizando en Pokexperto:<br />" +
 			"- <a href=\"http://www.pokexperto.net/foros/index.php?topic=31846.0\">Tema informativo del Proyecto PokeFabrica</a><br />" +
-			"- <a href=\"http://www.pokexperto.net/foros/index.php?topic=62199.0\">Tema de debate actual del 5ªProyecto PokeFabrica</a><br />" 
+			"- <a href=\"http://www.pokexperto.net/foros/index.php?topic=62199.0\">Tema de debate actual del 5ÂªProyecto PokeFabrica</a><br />" 
 		//	"- <a href=\"https://www.smogon.com/forums/forums/311\">Talk about the metagame here</a><br />" +
 		//	"- <a href=\"https://www.smogon.com/forums/threads/3512318/#post-5594694\">Sample XY CAP teams</a>" 
 		);
 	},
-	pkfhelp: ["/pkf - Muestra información sobre el proyecto de PokeFabrica (PKF) que se está realizando en Pokexperto.",
-		"!pkf - Muestra a todos esta información. Requiere: + % @ # & ~"],
+	pkfhelp: ["/pkf - Muestra informaciÃ³n sobre el proyecto de PokeFabrica (PKF) que se estÃ¡ realizando en Pokexperto.",
+		"!pkf - Muestra a todos esta informaciÃ³n. Requiere: + % @ # & ~"],
 
 	
 	/*********************************************************
@@ -126,7 +126,7 @@ slap: function (target, room, user) {
 		lideres: 'liga',
 	liga: function (target, room, user) {
 		if (!this.canBroadcast()) return;
-		var path = 'http://www.pokexperto.net/foros/index.php';
+		var path = 'http://i.imgur.com/rdrxGou.png';
 		var buffer = '';
 		buffer += '<b>CAMPEON DE LA LIGA POKEXPERTO</b><br />';
 		buffer += 'Aun nadie se ha coronado como Campeon<hr />';
@@ -145,9 +145,8 @@ slap: function (target, room, user) {
 		buffer += '<a href=' + path + 532 + '><button>Josito: Tierra</button></a></center>';
 		buffer += '<center><a href=' + path + 000 + '><button>Charz: Dragon</button></a>   ';
 		buffer += '<a href=' + path + 000 + '><button>Emblema Fuego: Fuego</button></a></center></div><hr />';
-	//	buffer += '&gt;&nbsp;<a href="????????">Cómo desafiar la liga.</a><br />';
-	//	buffer += '&gt;&nbsp;<a href="????????????">Información detallada sobre la Liga Pokémon Hispano.</a><br /><br />';
-	//	buffer += '<b><font size="2">No se acepta nuevos líderes de gimnasio.</font></b>';
+	//	buffer += '&gt;&nbsp;<a href="????????">CÃ³mo desafiar la liga.</a><br />';
+	//	buffer += '<b><font size="2">No se acepta nuevos lÃ­deres de gimnasio.</font></b>';
 	//	return this.sendReply('|raw|<center><img src="banner de liga" /></center><div class="league"><center><div id="league-content">' + buffer + '</div></center></div><center><img src="banner de liga" /></center>');
 		return this.sendReply('|raw|<center><img src="http://www.pokexperto.net/main/layout/bannerROZA.png" /></center><div class="league"><center><div id="league-content">' + buffer + '</div></center></div><center><img src="http://www.pokexperto.net/main/layout/nav/pokemon_bank.gif" /></center>');
 	},
