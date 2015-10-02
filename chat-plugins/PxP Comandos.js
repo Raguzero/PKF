@@ -72,7 +72,7 @@ slap: function (target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
 			"El servidor se va a reiniciar. Cosas que debes saber:<br />" +
-			"- Esperaemos unos minutos antes de reiniciar para que las personas puedan terminar sus batallas<br />" +
+			"- Esperaremos unos minutos antes de reiniciar para que las personas puedan terminar sus batallas<br />" +
 			"- El reinicio tomará alrededor de 0.6 segundos<br />" +
 			"- Tu ladder ranking y equipos no cambiarán<br />" +
 			"- Vamos a reiniciar para actualizar Pok&eacute;mon Showdown a la nueva version"
@@ -126,7 +126,7 @@ slap: function (target, room, user) {
 		lideres: 'liga',
 	liga: function (target, room, user) {
 		if (!this.canBroadcast()) return;
-		var path = 'http://i.imgur.com/rdrxGou.png';
+		var path = 'www.pokexperto.net';
 		var buffer = '';
 		buffer += '<b>CAMPEON DE LA LIGA POKEXPERTO</b><br />';
 		buffer += 'Aun nadie se ha coronado como Campeon<hr />';
@@ -148,7 +148,7 @@ slap: function (target, room, user) {
 	//	buffer += '&gt;&nbsp;<a href="????????">Cómo desafiar la liga.</a><br />';
 	//	buffer += '<b><font size="2">No se acepta nuevos líderes de gimnasio.</font></b>';
 	//	return this.sendReply('|raw|<center><img src="banner de liga" /></center><div class="league"><center><div id="league-content">' + buffer + '</div></center></div><center><img src="banner de liga" /></center>');
-		return this.sendReply('|raw|<center><img src="http://www.pokexperto.net/main/layout/bannerROZA.png" /></center><div class="league"><center><div id="league-content">' + buffer + '</div></center></div><center><img src="http://www.pokexperto.net/main/layout/nav/pokemon_bank.gif" /></center>');
+		return this.sendReply('|raw|<center><img src="http://i.imgur.com/rdrxGou.png" /></center><div class="league"><center><div id="league-content">' + buffer + '</div></center></div><center>');
 	},
 	
 
