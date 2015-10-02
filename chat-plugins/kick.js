@@ -12,8 +12,8 @@ exports.commands = {
 			return this.sendReply("Usuario " + this.targetUsername + " no se encuentra en la sala " + room.id + ".");
 		}
 		if (!this.can('kick', targetUser, room)) return false;
-		var msg = "fué echado de la sala " + room.id + " por " + user.name + (target ? " (" + target + ")" : "") + ".";
-		this.addModCommand("" + targetUser.name + " was " + msg);
+		var msg = "echado de la sala " + room.id + " por " + user.name + (target ? " (" + target + ")" : "") + ".";
+		this.addModCommand("" + targetUser.name + " fue " + msg);
 		targetUser.popup("Has sido " + msg);
 		targetUser.leaveRoom(room);
 	}
