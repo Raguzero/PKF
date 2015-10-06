@@ -51,6 +51,7 @@ slap: function (target, room, user) {
 			"- /roomvoice <em>username</em>: Lo convierte en un room voice<br />" +
 			"- /roomdevoice <em>username</em>: Elimina un room voice<br />" +
 			"- /modchat <em>[off/autoconfirmed/+]</em>: Selecciona el nivel del modchat<br />" +
+			"- /staffintro <em>intro</em>: sets the staff introduction that will be displayed for all staff joining the room<br />" +
 			"<br />" +
 			"Room owners (#) tambien pueden usar los siguientes comandos:<br />" +
 			"- /roomintro <em>intro</em>: Selecciona la introdución de la sala para que todas las personas que se unan a dicha sala, puedan verla<br />" +
