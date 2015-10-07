@@ -43,7 +43,7 @@ exports.BattleScripts = {
 		this.modData('Pokedex', 'banettemega').types = ['Ghost', 'Fighting'];
 		this.modData('Learnsets', 'banette').learnset.drainpunch = ['6T'];
 		this.modData('Pokedex', 'muk').types = ['Poison', 'Dark'];
-+		this.modData('Pokedex', 'muk').abilities['0'] = 'Regenerator';
-+		this.modData('Pokedex', 'cameruptmega').abilities['0'] = 'Desolate Land';
+		this.modData('Pokedex', 'muk').abilities['0'] = 'Regenerator';
+		this.modData('Pokedex', 'cameruptmega').abilities['0'] = 'Desolate Land';
 	}
 };
