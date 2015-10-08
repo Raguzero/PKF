@@ -1102,15 +1102,7 @@ exports.Formats = [
 		banlist: ['Allow PKF', 'Prinpawn + Shadow Tag + Transform', 'Prinpawn + Shadow Tag + Memento', 'Prinpawn + Shadow Tag + Final Gambit', 'Prinpawn + Shadow Tag + Rapid Spin', 'Unreleased', 'Illegal', 'Dark Void',  'Tomohawk', 'Necturna', 'Mollux', 'Aurumoth', 'Malaconda', 'Cawmodore', 'Volkraken', 'Syclant', 'Revenankh', 'Pyroak', 'Fidgit', 'Stratagem', 'Arghonaut', 'Kitsunoh', 'Cyclohm', 'Colossoil', 'Krilowatt', 'Voodoom', 'Plasmanta', 'Naviathan']
 		},
 		
-{
-		name: "METROGUSANO",
-		section: "PxP Metas",
-        mod: 'metrogusano',
-		ruleset: ['OU'],
-		banlist: ['Unreleased', 'Illegal', 'Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU', 'BL4', 'PU'] 
-},
-
-{
+		{
 		name: "PKF versus CAP",
 				desc: [
 	//		"&bullet; <a href=\"https://www.smogon.com/forums/threads/3521201/\">OU Metagame Discussion</a>",
@@ -1120,21 +1112,30 @@ exports.Formats = [
 		section: "PxP Metas",
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Swagger Clause', 'Baton Pass Clause'],
 		banlist: ['Alow CAP', 'Allow PKF', 'Prinpawn + Shadow Tag + Transform', 'Prinpawn + Shadow Tag + Memento', 'Prinpawn + Shadow Tag + Final Gambit', 'Prinpawn + Shadow Tag + Rapid Spin', 'Unreleased', 'Illegal', 'Uber', 'Soul Dew', 
-		'Tomohawk ++ Prinpawn', 'Tomohawk ++ Coureen', 'Tomohawk ++ Kincurs', 'Tomohawk ++ Posord', 'Tomohawk ++ Toxlime', 'Tomohawk ++ Wintass', 'Tomohawk ++ Prabbit', 'Tomohawk ++ Strancloud', 'Necturna ++ Prinpawn', 'Necturna ++ Coureen', 'Necturna ++ Kincurs',  
-		'Necturna ++ Posord',  'Necturna ++ Toxlime',  'Necturna ++ Wintass',  'Necturna ++ Prabbit',  'Necturna ++ Strancloud', 'Mollux ++ Prinpawn', 'Mollux ++ Coureen', 'Mollux ++ Kincurs', 'Mollux ++ Posord', 'Mollux ++ Toxlime', 'Mollux ++ Wintass', 'Mollux ++ Prabbit',
-		'Mollux ++ Strancloud', 'Aurumoth ++ Prinpawn', 'Aurumoth ++ Coureen', 'Aurumoth ++ Kincurs', 'Aurumoth ++ Posord', 'Aurumoth ++ Toxlime', 'Aurumoth ++ Wintass', 'Aurumoth ++ Prabbit', 'Aurumoth ++ Strancloud', 'Malaconda ++ Prinpawn', 'Malaconda ++ Coureen', 'Malaconda ++ Kincurs', 
-		'Malaconda ++ Posord', 'Malaconda ++ Toxlime', 'Malaconda ++ Wintass', 'Malaconda ++ Prabbit', 'Malaconda ++ Strancloud', 'Cawmodore ++ Prinpawn', 'Cawmodore ++ Coureen', 'Cawmodore ++ Kincurs', 'Cawmodore ++ Posord', 'Cawmodore ++ Toxlime', 'Cawmodore ++ Wintass', 'Cawmodore ++ Prabbit', 
-		'Cawmodore ++ Strancloud', 'Volkraken ++ Prinpawn', 'Volkraken ++ Coureen', 'Volkraken ++ Kincurs', 'Volkraken ++ Posord', 'Volkraken ++ Toxlime', 'Volkraken ++ Wintass', 'Volkraken ++ Prabbit', 'Volkraken ++ Strancloud', 'Syclant ++ Prinpawn', 'Syclant ++ Coureen', 'Syclant ++ Kincurs', 
-		'Syclant ++ Posord', 'Syclant ++ Toxlime', 'Syclant ++ Wintass', 'Syclant ++ Prabbit', 'Syclant ++ Strancloud', 'Revenankh ++ Prinpawn', 'Revenankh ++ Coureen', 'Revenankh ++ Kincurs', 'Revenankh ++ Posord', 'Revenankh ++ Toxlime', 'Revenankh ++ Wintass', 'Revenankh ++ Prabbit', 
-		'Revenankh ++ Strancloud', 'Pyroak ++ Prinpawn', 'Pyroak ++ Coureen', 'Pyroak ++ Kincurs', 'Pyroak ++ Posord', 'Pyroak ++ Toxlime', 'Pyroak ++ Wintass', 'Pyroak ++ Strancloud', 'Fidgit ++ Prinpawn', 'Fidgit ++ Coureen', 'Fidgit ++ Kincurs', 'Fidgit ++ Posord', 'Fidgit ++ Toxlime', 
-		'Fidgit ++ Wintass', 'Fidgit ++ Prabbit', 'Fidgit ++ Strancloud', 'Stratagem ++ Prinpawn', 'Stratagem ++ Coureen', 'Stratagem ++ Kincurs', 'Stratagem ++ Posord', 'Stratagem ++ Toxlime', 'Stratagem ++ Wintass', 'Stratagem ++ Prabbit', 'Stratagem ++ Strancloud', 'Arghonaut ++ Prinpawn', 
-		'Arghonaut ++ Coureen', 'Arghonaut ++ Kincurs', 'Arghonaut ++ Posord', 'Arghonaut ++ Toxlime', 'Arghonaut ++ Wintass', 'Arghonaut ++ Prabbit', 'Arghonaut ++ Strancloud', 'Kitsunoh ++ Prinpawn', 'Kitsunoh ++ Coureen', 'Kitsunoh ++ Kincurs', 'Kitsunoh ++ Posord', 'Kitsunoh ++ Toxlime', 
-		'Kitsunoh ++ Wintass', 'Kitsunoh ++ Prabbit', 'Kitsunoh ++ Strancloud', 'Cyclohm ++ Prinpawn', 'Cyclohm ++ Coureen', 'Cyclohm ++ Kincurs', 'Cyclohm ++ Posord', 'Cyclohm ++ Toxlime', 'Cyclohm ++ Wintass', 'Cyclohm ++ Prabbit', 'Cyclohm ++ Strancloud', 'Colossoil ++ Prinpawn', 
-		'Colossoil ++ Coureen', 'Colossoil ++ Kincurs', 'Colossoil ++ Posord', 'Colossoil ++ Toxlime', 'Colossoil ++ Wintass', 'Colossoil ++ Prabbit', 'Colossoil ++ Strancloud', 'Krilowatt ++ Prinpawn', 'Krilowatt ++ Coureen', 'Krilowatt ++ Kincurs', 'Krilowatt ++ Posord', 'Krilowatt ++ Toxlime', 
-		'Krilowatt ++ Wintass', 'Krilowatt ++ Prabbit', 'Krilowatt ++ Strancloud', 'Voodoom ++ Prinpawn', 'Voodoom ++ Coureen', 'Voodoom ++ Kincurs', 'Voodoom ++ Posord', 'Voodoom + Toxlime', 'Voodoom ++ Wintass', 'Voodoom ++ Prabbit', 'Voodoom ++ Strancloud', 'Plasmanta ++ Prinpawn', 'Plasmanta ++ Coureen', 
-		'Plasmanta ++ Kincurs', 'Plasmanta ++ Posord', 'Plasmanta ++ Toxlime', 'Plasmanta ++ Wintass', 'Plasmanta ++ Prabbit', 'Plasmanta ++ Strancloud', 'Naviathan ++ Prinpawn', 'Naviathan ++ Coureen', 'Naviathan ++ Kincurs', 'Naviathan ++ Posord', 'Naviathan ++ Toxlime', 'Naviathan ++ Wintass', 
+		'Tomohawk ++ Prinpawn', 'Tomohawk ++ Coureen', 'Tomohawk ++ Kincurs', 'Tomohawk ++ Posord', 'Tomohawk ++ Toxlimetierra', 'Tomohawk ++ Toxlimeagua', 'Tomohawk ++ Toxlimeelectrico', 'Tomohawk ++ Wintass', 'Tomohawk ++ Prabbit', 'Tomohawk ++ Strancloud', 'Necturna ++ Prinpawn', 'Necturna ++ Coureen', 'Necturna ++ Kincurs',  
+		'Necturna ++ Posord',  'Necturna ++ Toxlimetierra',  'Necturna ++ Toxlimeagua', 'Necturna ++ Toxlimeelectrico', 'Necturna ++ Wintass', 'Necturna ++ Prabbit', 'Necturna ++ Strancloud', 'Mollux ++ Prinpawn', 'Mollux ++ Coureen', 'Mollux ++ Kincurs', 'Mollux ++ Posord', 'Mollux ++ Toxlimetierra', 'Mollux ++ Toxlimeagua', 'Mollux ++ Toxlimeelectrico', 'Mollux ++ Wintass', 'Mollux ++ Prabbit',
+		'Mollux ++ Strancloud', 'Aurumoth ++ Prinpawn', 'Aurumoth ++ Coureen', 'Aurumoth ++ Kincurs', 'Aurumoth ++ Posord', 'Aurumoth ++ Toxlimetierra', 'Aurumoth ++ Toxlimeagua', 'Aurumoth ++ Toxlimeelectrico', 'Aurumoth ++ Wintass', 'Aurumoth ++ Prabbit', 'Aurumoth ++ Strancloud', 'Malaconda ++ Prinpawn', 'Malaconda ++ Coureen', 'Malaconda ++ Kincurs', 
+		'Malaconda ++ Posord', 'Malaconda ++ Toxlimetierra', 'Malaconda ++ Toxlimeagua', 'Malaconda ++ Toxlimeelectrico', 'Malaconda ++ Wintass', 'Malaconda ++ Prabbit', 'Malaconda ++ Strancloud', 'Cawmodore ++ Prinpawn', 'Cawmodore ++ Coureen', 'Cawmodore ++ Kincurs', 'Cawmodore ++ Posord', 'Cawmodore ++ Toxlimetierra', 'Cawmodore ++ Toxlimeagua', 'Cawmodore ++ Toxlimeelectrico', 'Cawmodore ++ Wintass', 'Cawmodore ++ Prabbit', 
+		'Cawmodore ++ Strancloud', 'Volkraken ++ Prinpawn', 'Volkraken ++ Coureen', 'Volkraken ++ Kincurs', 'Volkraken ++ Posord', 'Volkraken ++ Toxlimetierra', 'Volkraken ++ Toxlimeagua', 'Volkraken ++ Toxlimeelectrico', 'Volkraken ++ Wintass', 'Volkraken ++ Prabbit', 'Volkraken ++ Strancloud', 'Syclant ++ Prinpawn', 'Syclant ++ Coureen', 'Syclant ++ Kincurs', 
+		'Syclant ++ Posord', 'Syclant ++ Toxlimetierra', 'Syclant ++ Toxlimeagua', 'Syclant ++ Toxlimeelectrico', 'Syclant ++ Wintass', 'Syclant ++ Prabbit', 'Syclant ++ Strancloud', 'Revenankh ++ Prinpawn', 'Revenankh ++ Coureen', 'Revenankh ++ Kincurs', 'Revenankh ++ Posord', 'Revenankh ++ Toxlimetierra', 'Revenankh ++ Toxlimeagua', 'Revenankh ++ Toxlimeelectrico', 'Revenankh ++ Wintass', 'Revenankh ++ Prabbit', 
+		'Revenankh ++ Strancloud', 'Pyroak ++ Prinpawn', 'Pyroak ++ Coureen', 'Pyroak ++ Kincurs', 'Pyroak ++ Posord', 'Pyroak ++ Toxlimetierra', 'Pyroak ++ Toxlimeagua', 'Pyroak ++ Toxlimeelectrico', 'Pyroak ++ Wintass', 'Pyroak ++ Strancloud', 'Fidgit ++ Prinpawn', 'Fidgit ++ Coureen', 'Fidgit ++ Kincurs', 'Fidgit ++ Posord', 'Fidgit ++ Toxlimetierra', 
+		'Fidgit ++ Toxlimeagua', 'Fidgit ++ Toxlimeelectrico', 'Fidgit ++ Wintass', 'Fidgit ++ Prabbit', 'Fidgit ++ Strancloud', 'Stratagem ++ Prinpawn', 'Stratagem ++ Coureen', 'Stratagem ++ Kincurs', 'Stratagem ++ Posord', 'Stratagem ++ Toxlimetierra', 'Stratagem ++ Toxlimeagua', 'Stratagem ++ Toxlimeelectrico', 'Stratagem ++ Wintass', 'Stratagem ++ Prabbit', 'Stratagem ++ Strancloud', 'Arghonaut ++ Prinpawn', 
+		'Arghonaut ++ Coureen', 'Arghonaut ++ Kincurs', 'Arghonaut ++ Posord', 'Arghonaut ++ Toxlimetierra', 'Arghonaut ++ Toxlimeagua', 'Arghonaut ++ Toxlimeelectrico', 'Arghonaut ++ Wintass', 'Arghonaut ++ Prabbit', 'Arghonaut ++ Strancloud', 'Kitsunoh ++ Prinpawn', 'Kitsunoh ++ Coureen', 'Kitsunoh ++ Kincurs', 'Kitsunoh ++ Posord', 'Kitsunoh ++ Toxlimetierra', 
+		'Kitsunoh ++ Toxlimeagua', 'Kitsunoh ++ Toxlimeelectrico', 'Kitsunoh ++ Wintass', 'Kitsunoh ++ Prabbit', 'Kitsunoh ++ Strancloud', 'Cyclohm ++ Prinpawn', 'Cyclohm ++ Coureen', 'Cyclohm ++ Kincurs', 'Cyclohm ++ Posord', 'Cyclohm ++ Toxlimetierra', 'Cyclohm ++ Toxlimeagua', 'Cyclohm ++ Toxlimeelectrico', 'Cyclohm ++ Wintass', 'Cyclohm ++ Prabbit', 'Cyclohm ++ Strancloud', 'Colossoil ++ Prinpawn', 
+		'Colossoil ++ Coureen', 'Colossoil ++ Kincurs', 'Colossoil ++ Posord', 'Colossoil ++ Toxlimetierra', 'Colossoil ++ Toxlimeagua', 'Colossoil ++ Toxlimeelectrico', 'Colossoil ++ Wintass', 'Colossoil ++ Prabbit', 'Colossoil ++ Strancloud', 'Krilowatt ++ Prinpawn', 'Krilowatt ++ Coureen', 'Krilowatt ++ Kincurs', 'Krilowatt ++ Posord', 'Krilowatt ++ Toxlimetierra', 
+		'Krilowatt ++ Toxlimeagua', 'Krilowatt ++ Toxlimeelectrico', 'Krilowatt ++ Wintass', 'Krilowatt ++ Prabbit', 'Krilowatt ++ Strancloud', 'Voodoom ++ Prinpawn', 'Voodoom ++ Coureen', 'Voodoom ++ Kincurs', 'Voodoom ++ Posord', 'Voodoom + Toxlimetierra', 'Voodoom + Toxlimeagua', 'Voodoom + Toxlimeelectrico', 'Voodoom ++ Wintass', 'Voodoom ++ Prabbit', 'Voodoom ++ Strancloud', 'Plasmanta ++ Prinpawn', 'Plasmanta ++ Coureen', 
+		'Plasmanta ++ Kincurs', 'Plasmanta ++ Posord', 'Plasmanta ++ Toxlimetierra', 'Plasmanta ++ Toxlimeagua', 'Plasmanta ++ Toxlimeelectrico', 'Plasmanta ++ Wintass', 'Plasmanta ++ Prabbit', 'Plasmanta ++ Strancloud', 'Naviathan ++ Prinpawn', 'Naviathan ++ Coureen', 'Naviathan ++ Kincurs', 'Naviathan ++ Posord', 'Naviathan ++ Toxlimetierra', 'Naviathan ++ Toxlimeagua', 'Naviathan ++ Toxlimeelectrico', 'Naviathan ++ Wintass', 
 		'Naviathan ++ Prabbit', 'Naviathan ++ Strancloud']
 	},
+{
+		name: "METROGUSANO",
+		section: "PxP Metas",
+        mod: 'metrogusano',
+		ruleset: ['OU'],
+		banlist: ['Unreleased', 'Illegal', 'Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU', 'BL4', 'PU'] 
+},
+
+
 // MODIFICADO PARA POKEFABRICA
 
 	// BW2 Singles
