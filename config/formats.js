@@ -1109,6 +1109,23 @@ exports.Formats = [
 		ruleset: ['OU'],
 		banlist: ['Unreleased', 'Illegal', 'Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU', 'BL4', 'PU'] 
 },
+
+{
+		name: "PKF versus CAP",
+				desc: [
+	//		"&bullet; <a href=\"https://www.smogon.com/forums/threads/3521201/\">OU Metagame Discussion</a>",
+	//		"&bullet; <a href=\"https://www.smogon.com/dex/xy/tags/ou/\">OU Banlist</a>",
+			"&bullet; <a href=\"http://www.pokexperto.net/foros/index.php?topic=31846.0/\">Debate Metagame PokeFabrica</a>"
+		],
+		section: "PxP Metas",
+		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Swagger Clause', 'Baton Pass Clause'],
+		banlist: ['Alow CAP', 'Allow PKF', 'Prinpawn + Shadow Tag + Transform', 'Prinpawn + Shadow Tag + Memento', 'Prinpawn + Shadow Tag + Final Gambit', 'Prinpawn + Shadow Tag + Rapid Spin', 'Unreleased', 'Illegal', 'Uber', 'Soul Dew', 
+		'Tomohawk' + 'Prinpawn', 'Tomohawk' + 'Coureen', 'Tomohawk' + 'Kincurs', 'Tomohawk' + 'Posord', 'Tomohawk' + 'Toxlime', 'Tomohawk' + 'Wintass', 'Tomohawk' + 'Prabbit', 'Tomohawk' + 'Strancloud', 'Necturna' + 'Prinpawn', 'Necturna' + 'Coureen', 'Necturna' + 'Kincurs',  
+		'Necturna' + 'Posord',  'Necturna' + 'Toxlime',  'Necturna' + 'Wintass',  'Necturna' + 'Prabbit',  'Necturna' + 'Strancloud', 'Mollux' + 'Prinpawn', 'Mollux' + 'Coureen', 'Mollux' + 'Kincurs', 'Mollux' + 'Posord', 'Mollux' + 'Toxlime', 'Mollux' + 'Wintass', 'Mollux' + 'Prabbit',
+		'Mollux' + 'Strancloud', 'Aurumoth' + 'Prinpawn', 'Aurumoth' + 'Coureen', 'Aurumoth' + 'Kincurs', 'Aurumoth' + 'Posord', 'Aurumoth' + 'Toxlime', 'Aurumoth' + 'Wintass', 'Aurumoth' + 'Prabbit', 'Aurumoth' + 'Strancloud', 'Malaconda' + 'Prinpawn', 'Malaconda' + 'Coureen', 'Malaconda' + 'Kincurs', 
+		'Malaconda' + 'Posord', 'Malaconda' + 'Toxlime', 'Malaconda' + 'Wintass', 'Malaconda' + 'Prabbit', 'Malaconda' + 'Strancloud', 'Cawmodore' + 'Prinpawn', 'Cawmodore' + 'Coureen', 'Cawmodore' + 'Kincurs', 'Cawmodore' + 'Posord', 'Cawmodore' + 'Toxlime', 'Cawmodore' + 'Wintass', 'Cawmodore' + 'Prabbit', 
+		'Cawmodore' + 'Strancloud', 'Volkraken' + 'Prinpawn', 'Syclant', 'Revenankh', 'Pyroak', 'Fidgit', 'Stratagem', 'Arghonaut', 'Kitsunoh', 'Cyclohm', 'Colossoil', 'Krilowatt', 'Voodoom', 'Plasmanta', 'Naviathan']
+	},
 // MODIFICADO PARA POKEFABRICA
 
 	// BW2 Singles
